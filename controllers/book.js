@@ -9,6 +9,7 @@ exports.postBooks = (req, res) => {
   book.name = req.body.name;
   book.type = req.body.type;
   book.quantity = req.body.quantity;
+  book.userId = req.user._id;
 
   // Save the book and check for errors
   book.save(function(err) {
@@ -21,7 +22,7 @@ exports.postBooks = (req, res) => {
 
 exports.getBooks = (req, res) => {
   // User the Book model to find all books.
-  Book.find((err, books) => {
+  Book.find({ userId: req.user._id }, (err, books) => {
     if (err) {
       res.send(err);
     }
@@ -31,7 +32,7 @@ exports.getBooks = (req, res) => {
 
 exports.getBook = (req, res) => {
   // Use the Book model to find a specific book.
-  Book.findById(req.params.book_id, (err, book) => {
+  Book.findById( { userId: req.user._id, _id: req.params.book_id }, (err, book) => {
     if (err) {
       res.send(err);
     }
@@ -41,7 +42,7 @@ exports.getBook = (req, res) => {
 
 exports.putBook = (req, res) => {
   // Use the Book model to find a specific book.
-  Book.findById(req.params.book_id, (err, book) => {
+  Book.findById({ userId: req.user._id, _id: req.params.book_id }, (err, book) => {
     if (err) {
       res.send(err);
     }
@@ -58,7 +59,7 @@ exports.putBook = (req, res) => {
 };
 
 exports.deleteBook = (req, res) => {
-  Book.findByIdAndRemove(req.params.book_id, (err) => {
+  Book.findByIdAndRemove({ userId: req.user._id, _id: req.params.book_id }, (err) => {
     if (err) {
       res.send(err);
     }
