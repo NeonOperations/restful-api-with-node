@@ -139,7 +139,7 @@ let validateToken = (req, res) => {
     let token = JSON.parse(req.body).token;
     let keys = Object.keys(activeToken);
     let isValid = false;
-    for (let key in keys) {
+    for (let key of keys) {
         let entry = activeToken[key];
         let _token = entry.token;
         if (token === _token) {
@@ -147,10 +147,7 @@ let validateToken = (req, res) => {
             break;
         }
     }
-
     res.json({success: true, payload: {isValid: isValid}});
-
-
 };
 module.exports.ValidateToken = validateToken;
 
