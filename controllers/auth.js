@@ -1,5 +1,5 @@
 // auth.js
-// Authentication Controller to handle various Passport strategies 
+// Authentication Controller to handle various Passport strategies
 
 // Load the required packages
 const passport = require('passport');
@@ -12,13 +12,14 @@ const Token = require('../models/token');
 
 passport.use(new BasicStrategy(
   (username, password, callback) => {
+    console.log('HL -- basic');
     User.findOne({ username: username}, (err, user) => {
       if (err) {
         return callback(err);
       }
       // No user found with that username
       if (!user) {
-        return callback(null, false); 
+        return callback(null, false);
       }
 
       // Make sure that the password is correct
@@ -41,6 +42,7 @@ passport.use(new BasicStrategy(
 
 passport.use('client-basic', new BasicStrategy(
   (username, password, callback) => {
+    console.log('HL -- client-basic');
     Client.findOne({ id: username }, (err, client) => {
       if (err) {
         return callback(err);
@@ -58,6 +60,7 @@ passport.use('client-basic', new BasicStrategy(
 
 passport.use(new BearerStrategy(
   (accessToken, callback) => {
+    console.log('HL - Bearer');
     Token.findOne({ value: accessToken }, (err, token) => {
       if (err) {
         return callback(err);

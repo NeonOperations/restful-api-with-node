@@ -26,6 +26,7 @@ server.deserializeClient((id, callback) => {
 // Register authorization code grant type
 server.grant(oauth2orize.grant.code((client, redirectUri, user, ares, callback) => {
   // Create a new authorization code
+  console.log('HL - grant code');
   const code = new Code({
     value: uid(16),
     clientId: client._id,
@@ -45,6 +46,7 @@ server.grant(oauth2orize.grant.code((client, redirectUri, user, ares, callback) 
 
 // Exchange authorization codes for access tokens
 server.exchange(oauth2orize.exchange.code((client, code, redirectUri, callback) => {
+  console.log('HL - exchange code');
   Code.findOne({ value: code }, (err, authCode) => {
     if (err) {
       return callback;
@@ -77,7 +79,7 @@ server.exchange(oauth2orize.exchange.code((client, code, redirectUri, callback) 
         if (err) {
           callback(err);
         }
-        
+
         callback(null, token);
       });
     });
@@ -87,6 +89,7 @@ server.exchange(oauth2orize.exchange.code((client, code, redirectUri, callback) 
 // User authorization endpoint
 exports.authorization = [
   server.authorization((clientId, redirectUri, callback) => {
+    console.log('HL -- Authorization');
     Client.findOne({ id: clientId }, (err, client) => {
       if (err) {
         return callback(err);
@@ -97,7 +100,7 @@ exports.authorization = [
   (req, res) => {
     console.log(req.oauth2.transactionID);
     res.render('dialog',
-    { 
+    {
       transactionID: req.oauth2.transactionID,
       user: req.user,
       client: req.oauth2.client
@@ -111,7 +114,7 @@ exports.decision = [
 ]
 
 // Application client token exchange endpoint. This endpoint is set up to
-// handle the request made by the application client after it has been 
+// handle the request made by the application client after it has been
 // granted an authorization code by the user.
 exports.token = [
   server.token(),
