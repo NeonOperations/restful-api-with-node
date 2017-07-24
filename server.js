@@ -80,5 +80,9 @@ const uuidService = require('./src/server/services/uuid/UUIDService');
 uuidService.start(9901);
 
 // identity service
-const identityService = require('./src/server/services/identity/Identity');
+const identityService = require('./src/server/services/identity/IdentityService');
 identityService.start(9902);
+
+// permission service
+const permissionService = require('./src/server/services/permission/PermissionService');
+permissionService.start(9903);
