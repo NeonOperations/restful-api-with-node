@@ -156,7 +156,7 @@ let validateToken = (req, res) => {
             break;
         }
     }
-    req.json({success : true, payload : { isValid : isValid}});
+    res.json({success : true, payload : { isValid : isValid}});
 
 };
 module.exports.ValidateToken = validateToken;
@@ -166,7 +166,7 @@ let revokeUser = (req, res) => {
     if ( activeToken.hasOwnProperty(req.body.username)){
         activeToken.removeProperty(req.body.username);
     }
-    req.json({success : true})
+    res.json({success : true})
 };
 module.exports.RevokeUser = revokeUser;
 
