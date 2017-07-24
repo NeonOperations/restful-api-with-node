@@ -106,6 +106,7 @@ let authenticate =  (username, clearTextPassword, callback) => {
 
     })(req);
 };
+module.exports.Authenticate = authenticate;
 
 
 let requestToken = (req, res) => {
@@ -138,6 +139,7 @@ let requestToken = (req, res) => {
         res.json(response);
     });
 };
+module.exports.RequestToken = requestToken;
 
 let validateToken = (req, res) => {
 
@@ -157,6 +159,7 @@ let validateToken = (req, res) => {
     req.json({success : true, payload : { isValid : isValid}});
 
 };
+module.exports.ValidateToken = validateToken;
 
 let revokeUser = (req, res) => {
 
@@ -165,6 +168,8 @@ let revokeUser = (req, res) => {
     }
     req.json({success : true})
 };
+module.exports.RevokeUser = revokeUser;
+
 
 let revokeToken = (req, res) => {;
 
@@ -183,13 +188,40 @@ let revokeToken = (req, res) => {;
 
     req.json({success : isSuccess})
 };
+module.exports.RevokeToken = revokeToken;
+
+let userFromToken = (req, res) => {;
+
+    let token = req.body.token;
+    let keys = Object.keys(activeToken);
+    let isSuccess = false;
+
+    let usename = undefined;
+    for ( let index = 0; index.keys.length; index++) {
+        let entry = activeToken[key];
+        if ( entry.token === token){
+            usename = entry.username;
+            isSuccess = true;
+            break;
+        }
+    }
+
+    req.json({
+        success : isSuccess,
+        payload : {
+            username : username,
+            token : toekn}
+         });
+};
+module.exports.GetUserFromToken = userFromToken;
 
 module.exports.service = new RestServiceFactory("Identity",
     [
         new RestEndpoint('POST', '/requesttoken', requestToken),
         new RestEndpoint('POST', '/validatetoken', validateToken),
         new RestEndpoint('POST', '/revoketoken', revokeToken),
-        new RestEndpoint('POST', '/revokeuser', revokeUser)
+        new RestEndpoint('POST', '/revokeuser', revokeUser),
+        new RestEndpoint('POST', '/usertotoken', userFromToken)
     ]
 );
 
