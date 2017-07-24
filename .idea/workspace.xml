@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0aef1e-738f-4558-9744-67bcfedc164f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/server/services/identity/Identity.js" afterPath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" afterPath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,56 +16,52 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="ProxyService.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="735">
-                  <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="IdentityService.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1297">
-                  <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="get.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/server/http/get.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="28" lean-forward="false" selection-start-line="0" selection-start-column="28" selection-end-line="0" selection-end-column="28" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="ProxyService.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdentityService.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="138" column="36" lean-forward="false" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="82" column="79" lean-forward="false" selection-start-line="82" selection-start-column="79" selection-end-line="82" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response119.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
         <option value="$PROJECT_DIR$/src/server/services/proxy/ProxyService.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
       </list>
     </option>
   </component>
@@ -144,13 +138,6 @@
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -207,6 +194,117 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9902" />
+          <option name="urlPath" value="/requestToken" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;username&quot; : &quot;admin&quot; , &quot;password&quot; : &quot;admin&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9902" />
+          <option name="urlPath" value="/validatetoken" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;token&quot;:&quot;6f39d4d5-ee04-4004-8668-fd190e5c0424&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9902" />
+          <option name="urlPath" value="/verifyToken" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;token&quot;:&quot;6f39d4d5-ee04-4004-8668-fd190e5c0424&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9902" />
+          <option name="urlPath" value="/requestToken" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;username&quot; : &quot;admin&quot;, &quot;password&quot; : &quot;admin&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:9902" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{ &quot;username&quot; : &quot;admin&quot;, &quot;password&quot; : &quot;admin&quot;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -229,28 +327,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500912151504</updated>
-      <workItem from="1500912152650" duration="6276000" />
+      <workItem from="1500912152650" duration="8700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6276000" />
+    <option name="totallyTimeSpent" value="8700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15310428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22543702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5021097" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5421687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29454926" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.442348" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -266,7 +365,22 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js</url>
+          <line>143</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js</url>
+          <line>138</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -294,46 +408,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500912038000" expanded="true" signature="395:432" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="520:530" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="569:653" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="584:619" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="791:957" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="854:956" ph="{&quot;clientId&quot;: client._id...}" />
-            <marker date="1500912038000" expanded="true" signature="1026:1101" ph="{&quot;null&quot;: null...}" />
-            <marker date="1500912038000" expanded="true" signature="1041:1076" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1255:1263" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1308:1370" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1323:1353" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1386:1429" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1483:1526" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1573:1616" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1697:1924" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1714:1753" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1820:1923" ph="{&quot;clientId&quot;: authCode.clientId...}" />
-            <marker date="1500912038000" expanded="true" signature="2005:2098" ph="{&quot;null&quot;: null...}" />
-            <marker date="1500912038000" expanded="true" signature="2024:2060" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2186:2409" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="2248:2260" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2304:2409" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2321:2360" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2441:2630" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2515:2624" ph="{&quot;transactionID&quot;: req.oauth2.transactionID...}" />
-            <marker date="1500912038000" expanded="true" signature="2679:2702" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="2704:2895" ph="//..." />
-            <marker date="1500912038000" expanded="true" signature="2912:2957" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="3030:3272" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="3191:3246" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="3306:3369" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="395:432" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="520:530" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="569:653" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="584:619" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="791:836" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="854:956" ph="{&quot;clientId&quot;: client._id...}" />
+            <marker date="1500934041000" expanded="true" signature="1026:1101" ph="{&quot;null&quot;: null...}" />
+            <marker date="1500934041000" expanded="true" signature="1041:1076" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1255:1263" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1308:1370" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1323:1353" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1386:1429" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1483:1526" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1573:1616" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1697:1924" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1714:1753" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1820:1923" ph="{&quot;clientId&quot;: authCode.clientId...}" />
+            <marker date="1500934041000" expanded="true" signature="2005:2098" ph="{&quot;null&quot;: null...}" />
+            <marker date="1500934041000" expanded="true" signature="2024:2060" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2186:2409" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="2248:2260" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2304:2409" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2321:2360" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2441:2630" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2515:2624" ph="{&quot;transactionID&quot;: req.oauth2.transactionID...}" />
+            <marker date="1500934041000" expanded="true" signature="2679:2702" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="2950:2996" ph="//..." />
+            <marker date="1500934041000" expanded="true" signature="3013:3058" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="3131:3373" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="3292:3347" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="3407:3470" ph="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -350,7 +456,7 @@
         <state relative-caret-position="-799">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -371,18 +477,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
+    <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1297">
-          <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+        <state relative-caret-position="960">
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="46" lean-forward="false" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="625">
+          <caret line="82" column="79" lean-forward="false" selection-start-line="82" selection-start-column="79" selection-end-line="82" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="138" column="36" lean-forward="false" selection-start-line="138" selection-start-column="36" selection-end-line="138" selection-end-column="36" />
           <folding />
         </state>
       </provider>

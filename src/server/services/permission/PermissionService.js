@@ -4,6 +4,7 @@ const REST = require('../RestServiceFactory'),
   RestServiceFactory = REST.RestServiceFactory;
 
 const requestPermission = (token, user) => {
+  console.log(token)
   return ((req, res, next) => {
     console.log(req);
     if (req.session.user &&
