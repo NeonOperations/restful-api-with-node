@@ -10,12 +10,15 @@ const clientController = require('./controllers/client');
 const ejs = require('ejs');
 const session = require('express-session');
 const oauth2Controller = require('./controllers/oauth2');
+const logging = require('morgan');
 
 // Connect to MongoDB
 mongoose.connect('mongodb://localhost:27017/restful-api-with_node');
 
 // Create our Express application
 const app = express();
+
+app.use(logging('combined'));
 
 // Set the view engine to ejs
 app.set('view engine', 'ejs');
@@ -71,3 +74,11 @@ app.use('/api', router);
 
 // Start the server
 app.listen(port);
+
+// uuidService
+const uuidService = require('./src/server/services/uuid/UUIDService');
+uuidService.start(9901);
+
+// identity service
+const identityService = require('./src/server/services/identity/Identity');
+identityService.start(9902);

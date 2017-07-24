@@ -2,8 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0aef1e-738f-4558-9744-67bcfedc164f" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/basic-auth/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/basic-auth/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/basic-auth/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/basic-auth/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/basic-auth/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/cookie-parser/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/HISTORY.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/.eslintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/karma.conf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/src/browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/src/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/src/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/src/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/morgan/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/strategy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/passport-local/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/services/permission/permission.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/auth.js" afterPath="$PROJECT_DIR$/controllers/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/oauth2.js" afterPath="$PROJECT_DIR$/controllers/oauth2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/RestServiceFactory.js" afterPath="$PROJECT_DIR$/src/server/services/RestServiceFactory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" afterPath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/proxy/ProxyService.js" afterPath="$PROJECT_DIR$/src/server/services/proxy/ProxyService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" afterPath="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,27 +64,27 @@
         <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="960">
-              <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+              <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IdentityService.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IdentityService.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="147" column="38" lean-forward="false" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="38" />
+            <state relative-caret-position="121">
+              <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="829">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,8 +99,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
         <option value="$PROJECT_DIR$/src/server/services/proxy/ProxyService.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
       </list>
     </option>
   </component>
@@ -128,13 +172,6 @@
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
@@ -219,25 +256,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500912151504</updated>
-      <workItem from="1500912152650" duration="7654000" />
+      <workItem from="1500912152650" duration="7829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7654000" />
+    <option name="totallyTimeSpent" value="7829000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15310428" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22543702" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5021097" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21698113" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -259,7 +297,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js</url>
-          <line>150</line>
+          <line>143</line>
           <properties />
         </line-breakpoint>
       </breakpoints>
@@ -292,37 +330,37 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1500912038000" expanded="true" signature="395:432" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="520:530" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="569:653" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="584:619" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="791:957" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="854:956" ph="{&quot;clientId&quot;: client._id...}" />
-            <marker date="1500912038000" expanded="true" signature="1026:1101" ph="{&quot;null&quot;: null...}" />
-            <marker date="1500912038000" expanded="true" signature="1041:1076" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1255:1263" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1308:1370" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1323:1353" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1386:1429" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1483:1526" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1573:1616" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1697:1924" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1714:1753" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="1820:1923" ph="{&quot;clientId&quot;: authCode.clientId...}" />
-            <marker date="1500912038000" expanded="true" signature="2005:2098" ph="{&quot;null&quot;: null...}" />
-            <marker date="1500912038000" expanded="true" signature="2024:2060" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2186:2409" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="2248:2260" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2304:2409" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2321:2360" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2441:2630" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="2515:2624" ph="{&quot;transactionID&quot;: req.oauth2.transactionID...}" />
-            <marker date="1500912038000" expanded="true" signature="2679:2702" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="2704:2895" ph="//..." />
-            <marker date="1500912038000" expanded="true" signature="2912:2957" ph="[...]" />
-            <marker date="1500912038000" expanded="true" signature="3030:3272" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="3191:3246" ph="{...}" />
-            <marker date="1500912038000" expanded="true" signature="3306:3369" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="395:432" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="520:530" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="569:653" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="584:619" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="791:836" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="854:956" ph="{&quot;clientId&quot;: client._id...}" />
+            <marker date="1500934041000" expanded="true" signature="1026:1101" ph="{&quot;null&quot;: null...}" />
+            <marker date="1500934041000" expanded="true" signature="1041:1076" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1255:1263" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1308:1370" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1323:1353" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1386:1429" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1483:1526" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1573:1616" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1697:1924" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1714:1753" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="1820:1923" ph="{&quot;clientId&quot;: authCode.clientId...}" />
+            <marker date="1500934041000" expanded="true" signature="2005:2098" ph="{&quot;null&quot;: null...}" />
+            <marker date="1500934041000" expanded="true" signature="2024:2060" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2186:2409" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="2248:2260" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2304:2409" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2321:2360" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2441:2630" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="2515:2624" ph="{&quot;transactionID&quot;: req.oauth2.transactionID...}" />
+            <marker date="1500934041000" expanded="true" signature="2679:2702" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="2950:2996" ph="//..." />
+            <marker date="1500934041000" expanded="true" signature="3013:3058" ph="[...]" />
+            <marker date="1500934041000" expanded="true" signature="3131:3373" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="3292:3347" ph="{...}" />
+            <marker date="1500934041000" expanded="true" signature="3407:3470" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -340,7 +378,7 @@
         <state relative-caret-position="-799">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -364,23 +402,23 @@
     <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="960">
-          <caret line="64" column="23" lean-forward="true" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="147" column="38" lean-forward="false" selection-start-line="147" selection-start-column="27" selection-end-line="147" selection-end-column="38" />
+          <caret line="64" column="23" lean-forward="false" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="70" column="0" lean-forward="true" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="829">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="137" column="1" lean-forward="false" selection-start-line="137" selection-start-column="1" selection-end-line="137" selection-end-column="1" />
           <folding />
         </state>
       </provider>
