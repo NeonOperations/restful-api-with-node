@@ -12,6 +12,7 @@ const getUUID = () => {
     return (c == 'x' ? r : (r & 0x3 | 0x8)).toString(16);
   });
 };
+module.exports.getUUID = getUUID;
 
 /**
  * Service Generates Unique Id
