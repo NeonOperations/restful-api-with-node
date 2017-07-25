@@ -4,7 +4,7 @@ const Perms = require('../services/permission/PermissionService');
 const Proxy = require("../services/proxy/ProxyService");
 const request = request('request');
 
-module.exports = {
+let API = {
 
     UUID: {
         getUUID: () => {
@@ -79,17 +79,33 @@ module.exports = {
 
         Delegate: (service, serviceName, path, url, method, payload, token, callabck) => {
 
-            let data = {
-                url : url,
-                method : method,
-                payload : payload,
-                token : token
-            };
-            let url = "http://localhost:9904/proxy";
-            request.post(url, data, (ret) => {
-                callback(ret);
-            })
+            API.Permissions.CanExecute(service, serviceName, username, method, path,(results)=>{
+
+
+                if ( results.success === true){
+
+                    let data = {
+                        url : url,
+                        method : method,
+                        payload : payload,
+                        token : token
+                    };
+
+                    let url = "http://localhost:9904/proxy";
+                    request.post(url, data, (ret) => {
+                        callback(ret);
+                    })
+                }
+                else {
+
+
+                }
+            });
+
+
         }
     }
 
 };
+
+module.exports = API;

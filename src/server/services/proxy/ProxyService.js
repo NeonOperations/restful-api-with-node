@@ -3,9 +3,9 @@ const REST = require('../RestServiceFactory'),
     RestEndpoint = REST.RestEndpoint,
     RestServiceFactory = REST.RestServiceFactory;
 
-const GET = require('../../../server/http/get');
-const POST = require('../../../server/http/post');
-
+// const GET  = require('../../../server/http/get');
+// const POST = require('../../../server/http/post');
+let request = require('request');
 let Endpoints = {};
 
 Endpoints['SRF'] = new Endpoint();
@@ -21,33 +21,35 @@ Endpoints['SRF'] = new Endpoint('SRF','localhost:8080/cdsWebApp/SRF');
 module.exports.Endpoint = Endpoint;
 
 module.exports.service = new RestServiceFactory("ProxyService", [
-        new RestEndpoint('POST', '/proxy', (req, res) => {
 
-                let ret;
-                let endpoint = req.body;
+    new RestEndpoint('POST', '/proxy', (req, res) => {
 
-                let token = endpoint.token;
+                let body = JSON.parse(req.body);
 
-                // call the permissions sevice;
-
-                let url = endpoint.url;
-                let payload = endpoint.payload;
-                let method = endpoint.method;
-
-
+                let token = body.token;
+                let url = body.url;
+                let payload = body.payload;
+                let method = body.method;
+                let subpath = body.subpath;
 
                 try {
-                    if (delegatedEndpoit.method === 'GET') {
-                        GET.get(url, (err, body) => {
-                            ret = {
-                                success: true,
-                                payload: body
-                            };
+                    if ( method.toUpperCase() === 'GET') {
+
+
+                        request.get(url, (err, body) => {
+
+
+                                ret = {
+                                    success: true,
+                                    payload: body,
+                                    error : err
+                                };
+
                             res.json(ret);
                         })
                     }
-                    else if (delegatedEndpoit.method === 'POST') {
-                        POST.post(url, payload , (err, body) => {
+                    else if ( method.toUpperCase() === 'POST') {
+                        request.post(url, payload , (err, body) => {
                             ret = {
                                 success: true,
                                 payload: body
