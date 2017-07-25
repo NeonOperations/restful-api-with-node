@@ -182,7 +182,7 @@ module.exports.RevokeToken = revokeToken;
 const userFromToken = (req, res) => {
   const token = req.body.token;
   const keys = Object.keys(activeToken);
-  const isSuccess = false;
+  let isSuccess = false;
   console.log(token);
   console.log(keys);
 
