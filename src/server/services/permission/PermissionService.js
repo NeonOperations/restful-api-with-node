@@ -1,24 +1,29 @@
+const identity = require('../identity/IdentityService');
+
 const REST = require('../RestServiceFactory'),
   Response = REST.Response,
   RestEndpoint = REST.RestEndpoint,
   RestServiceFactory = REST.RestServiceFactory;
 
-const requestPermission = (token, user) => {
-  console.log(token)
-  return ((req, res, next) => {
-    console.log(req);
-    if (req.session.user &&
-      req.session.user.role === role) {
-      next();
-    } else {
-      res.send(403);
-    }
-  });
+const permissions = [
+  {user: 'admin', allow: ['ALL']},
+  {user: 'ods-user', allow: ['ODS', 'CDS']},
+  {user: 'cds-user', allow: ['CDS']}
+];
+
+const requestPermission = (req, res) => {
+
+  if (!req.body) {
+    //res.sendStatus(400);
+  }
+
+  const isTokenValid = identity.ValidateToken(req, res);
+  console.log(isTokenValid);
 }
 
 module.exports.service = new RestServiceFactory("Permission",
   [
-    new RestEndpoint('POST', '/requestpermission', requestPermission),
+    new RestEndpoint('POST', '/requestpermission', requestPermission)
   ]
 );
 
