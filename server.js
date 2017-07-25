@@ -86,3 +86,7 @@ identityService.start(9902);
 // permission service
 const permissionService = require('./src/server/services/permission/PermissionService');
 permissionService.start(9903);
+
+
+const proxyService = require('./src/server/services/proxy/ProxyService')
+proxyService.start(9904);
