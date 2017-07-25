@@ -121,6 +121,7 @@ let requestToken = (req, res) => {
       response.success = true;
       response.payload = { token: token };
       activeToken[username] = {
+        username : username,
         token: token,
         create_data: new Date(),
         last_activity: new Date()
@@ -180,27 +181,33 @@ let revokeToken = (req, res) => {
 module.exports.RevokeToken = revokeToken;
 
 const userFromToken = (req, res) => {
-  const token = req.body.token;
+
+  let body = JSON.parse(req.body);
+  const token = body.token;
   const keys = Object.keys(activeToken);
   let isSuccess = false;
   console.log(token);
   console.log(keys);
 
-  let usename = undefined;
+  let username = undefined;
+  let e = undefined;
   for (let key of keys) {
     let entry = activeToken[key];
+    e = entry;
     if (entry.token === token) {
+
       username = entry.username;
       isSuccess = true;
       break;
     }
   }
 
-  req.json({
+  res.json({
     success: isSuccess,
     payload: {
+      entry : e,
       username: username,
-      token: toekn
+      token: token
     }
   });
 };
@@ -214,7 +221,7 @@ module.exports.service = new RestServiceFactory("Identity",
     new RestEndpoint('POST', '/validatetoken', validateToken),
     new RestEndpoint('POST', '/revoketoken', revokeToken),
     new RestEndpoint('POST', '/revokeuser', revokeUser),
-    new RestEndpoint('POST', '/usertotoken', userFromToken)
+    new RestEndpoint('POST', '/userfromtoken', userFromToken)
   ]
 );
 
