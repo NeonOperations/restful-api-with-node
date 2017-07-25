@@ -23,7 +23,7 @@ server.deserializeClient((id, callback) => {
   });
 });
 
-// Register authorization code grant type
+// Register authorization code grant type - permission
 server.grant(oauth2orize.grant.code((client, redirectUri, user, ares, callback) => {
   // Create a new authorization code
   console.log('HL - grant code');
@@ -39,7 +39,7 @@ server.grant(oauth2orize.grant.code((client, redirectUri, user, ares, callback) 
     if (err) {
       return callback(err);
     }
-
+    console.log(code);
     callback(null, code.value);
   });
 }));
