@@ -77,7 +77,7 @@ module.exports = {
 
     Proxy: {
 
-        Delegate: (url, method, payload, token, callabck) => {
+        Delegate: (service, serviceName, path, url, method, payload, token, callabck) => {
 
             let data = {
                 url : url,
