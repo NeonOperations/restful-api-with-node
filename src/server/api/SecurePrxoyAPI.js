@@ -2,7 +2,7 @@ const Uuid = require('../services/uuid/UUIDService');
 const Identity = require('../services/identity/IdentityService');
 const Perms = require('../services/permission/PermissionService');
 const Proxy = require("../services/proxy/ProxyService");
-const request = request('request');
+const request = require('request');
 
 let API = {
 

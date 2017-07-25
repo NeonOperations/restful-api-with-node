@@ -30,7 +30,8 @@
     "passport-http": "^0.3.0",
     "passport-http-bearer": "^1.0.1",
     "passport-local": "^1.0.0",
-    "password": "^0.1.1"
+    "password": "^0.1.1",
+    "request": "^2.81.0"
   },
   "devDependencies": {
     "jasmine": "^2.6.0",

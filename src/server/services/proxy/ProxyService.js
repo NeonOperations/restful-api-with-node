@@ -3,8 +3,7 @@ const REST = require('../RestServiceFactory'),
     RestEndpoint = REST.RestEndpoint,
     RestServiceFactory = REST.RestServiceFactory;
 
-// const GET  = require('../../../server/http/get');
-// const POST = require('../../../server/http/post');
+let API = require('../../../server/api/SecurePrxoyAPI');
 let request = require('request');
 let Endpoints = {};
 
@@ -16,39 +15,50 @@ function Endpoint(serviceName, url, method) {
     this.method = method;
 }
 
-Endpoints['SRF'] = new Endpoint('SRF','localhost:8080/cdsWebApp/SRF');
+Endpoints['SRF'] = new Endpoint('SRF', 'localhost:8080/cdsWebApp/SRF');
 
 module.exports.Endpoint = Endpoint;
 
 module.exports.service = new RestServiceFactory("ProxyService", [
 
-    new RestEndpoint('POST', '/proxy', (req, res) => {
+        new RestEndpoint('POST', '/proxy', (req, res) => {
 
-                let body = JSON.parse(req.body);
+            let body = JSON.parse(req.body);
 
-                let token = body.token;
-                let url = body.url;
-                let payload = body.payload;
-                let method = body.method;
-                let subpath = body.subpath;
+            let token = body.token;
 
-                try {
+
+            let service      = "ods";
+            let serviceName  = "locations";
+            let username     = "admin";
+            let path         = body.subpath;
+
+
+
+            let url = body.url;
+            let payload = body.payload;
+            let method = body.method;
+            let subpath = body.subpath;
+
+            API.Permissions.CanExecute(service, serviceName, username, method, path, (res) => {
+
+                console.log(res);
+
+                if ( res.success === true && res.payload === true) {
+
                     if ( method.toUpperCase() === 'GET') {
 
-
                         request.get(url, (err, body) => {
-
-
-                                ret = {
-                                    success: true,
-                                    payload: body,
-                                    error : err
-                                };
-
+                            ret = {
+                                success: true,
+                                payload: body,
+                                error : err
+                            };
                             res.json(ret);
                         })
                     }
                     else if ( method.toUpperCase() === 'POST') {
+
                         request.post(url, payload , (err, body) => {
                             ret = {
                                 success: true,
@@ -63,14 +73,17 @@ module.exports.service = new RestServiceFactory("ProxyService", [
                     else if (delegatedEndpoit.method === 'DEL') {
 
                     }
-                } catch (e) {
-                    ret = {
-                        success: true,
-                        error: JSON.stringify(e)
-                    };
+
+                }else {
+
+                    res.json(res);
                 }
 
-            })
+
+            });
+
+
+        })
     ]
 );
 
