@@ -1,3 +1,5 @@
+let async = require('async');
+
 const REST = require('../RestServiceFactory'),
     Response = REST.Response,
     RestEndpoint = REST.RestEndpoint,
@@ -19,6 +21,12 @@ Endpoints['SRF'] = new Endpoint('SRF', 'localhost:8080/cdsWebApp/SRF');
 
 module.exports.Endpoint = Endpoint;
 
+
+
+securedProxy = () =>{
+
+
+}
 module.exports.service = new RestServiceFactory("ProxyService", [
 
         new RestEndpoint('POST', '/proxy', (req, res) => {
@@ -40,48 +48,62 @@ module.exports.service = new RestServiceFactory("ProxyService", [
             let method = body.method;
             let subpath = body.subpath;
 
-            API.Permissions.CanExecute(service, serviceName, username, method, path, (res) => {
+            if ( method.toUpperCase() === 'GET') {
 
-                console.log(res);
-
-                if ( res.success === true && res.payload === true) {
-
-                    if ( method.toUpperCase() === 'GET') {
-
-                        request.get(url, (err, body) => {
-                            ret = {
-                                success: true,
-                                payload: body,
-                                error : err
-                            };
-                            res.json(ret);
-                        })
-                    }
-                    else if ( method.toUpperCase() === 'POST') {
-
-                        request.post(url, payload , (err, body) => {
-                            ret = {
-                                success: true,
-                                payload: body
-                            };
-                            res.json(ret);
-                        });
-                    }
-                    else if (delegatedEndpoit.method === 'PUT') {
-
-                    }
-                    else if (delegatedEndpoit.method === 'DEL') {
-
-                    }
-
-                }else {
-
-                    res.json(res);
-                }
+                request.get(url, (err, body) => {
+                    ret = {
+                        success: true,
+                        payload: body,
+                        error : err
+                    };
+                    res.json(ret);
+                })
+            }
 
 
-            });
 
+            // API.Permissions.CanExecute(service, serviceName, username, method, path, (res) => {
+            //
+            //     console.log(res);
+            //
+            //     if ( res.success === true && res.payload === true) {
+            //
+            //         if ( method.toUpperCase() === 'GET') {
+            //
+            //             request.get(url, (err, body) => {
+            //                 ret = {
+            //                     success: true,
+            //                     payload: body,
+            //                     error : err
+            //                 };
+            //                 res.json(ret);
+            //             })
+            //         }
+            //         else if ( method.toUpperCase() === 'POST') {
+            //
+            //             request.post(url, payload , (err, body) => {
+            //                 ret = {
+            //                     success: true,
+            //                     payload: body
+            //                 };
+            //                 res.json(ret);
+            //             });
+            //         }
+            //         else if (delegatedEndpoit.method === 'PUT') {
+            //
+            //         }
+            //         else if (delegatedEndpoit.method === 'DEL') {
+            //
+            //         }
+            //
+            //     }else {
+            //
+            //         res.json(res);
+            //     }
+            //
+            //
+            // });
+            //
 
         })
     ]

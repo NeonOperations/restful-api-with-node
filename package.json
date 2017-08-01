@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/NeonOperations/restful-api-with-node#readme",
   "dependencies": {
+    "async": "^2.5.0",
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.17.2",
     "cookie-parser": "^1.4.3",

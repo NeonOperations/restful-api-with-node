@@ -24,11 +24,29 @@ let records = [
 
 let activeToken = {};
 
+// expire token in 30 min if inactive
+let expired = 30 * 60 * 1000;
+
+setInterval(
+    // run
+    ()=>{
+       let now = new Date();
+       // find expired
+       let expired = activeToken.filter( (e) => {return (now.getMilliseconds() -  e.last_activity.getMilliseconds()) > expired;} );
+       // remove expired
+       expired.forEach( (e)=> {
+         console.log("remove token " + e.token);
+         delete activeToken[e.usersname];
+       })
+    },
+    // interval
+    60 * 1000);
+
 findById = function (id, cb) {
 
   process.nextTick(function () {
 
-    var idx = id - 1;
+    let idx = id - 1;
 
     if (records[idx]) {
 
@@ -109,6 +127,7 @@ module.exports.Authenticate = authenticate;
 
 
 let requestToken = (req, res) => {
+
   let txtBody = req.body;
   let body = JSON.parse(txtBody);
   let username = body.username;
@@ -117,16 +136,27 @@ let requestToken = (req, res) => {
   authenticate(username, clearTextPassword, function (err) {
     let response = {};
     if (!err) {
-      let token = uuid.getUUID();
-      response.success = true;
-      response.payload = { token: token };
-      activeToken[username] = {
-        username : username,
-        token: token,
-        create_data: new Date(),
-        last_activity: new Date()
+
+
+      if( activeToken[username]){
+
+          response.payload = { token: activeToken[username].token };
+
+      } else {
+
+          let token = uuid.getUUID();
+          response.success = true;
+          response.payload = {token: token};
+          activeToken[username] = {
+              username: username,
+              token: token,
+              create_data: new Date(),
+              last_activity: new Date()
+          }
       }
-    } else {
+    }
+
+    else {
       response.success = false;
       response.error = err;
     }
