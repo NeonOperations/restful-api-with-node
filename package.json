@@ -26,12 +26,16 @@
     "express-session": "^1.15.4",
     "mongoose": "^4.11.3",
     "morgan": "^1.8.2",
+    "node-sass-middleware": "^0.11.0",
     "oauth2orize": "^1.8.0",
     "passport": "^0.3.2",
+    "passport-github2": "^0.1.10",
+    "passport-hash": "^0.6.0",
     "passport-http": "^0.3.0",
     "passport-http-bearer": "^1.0.1",
     "passport-local": "^1.0.0",
     "password": "^0.1.1",
+    "path": "^0.12.7",
     "request": "^2.81.0"
   },
   "devDependencies": {

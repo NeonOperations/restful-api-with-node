@@ -1,8 +1,10 @@
 // Get the packages we need
 const express = require('express');
+const path = require('path');
+
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const bookController = require('./controllers/book');
+
 const userController = require('./controllers/user');
 const passport = require('passport');
 const authController = require('./controllers/auth');
@@ -33,6 +35,19 @@ app.use(session({
   resave: true
 }));
 
+//
+app.use(express.static(path.join(__dirname, 'public')));
+
+
+
+var sassMiddleware = require('node-sass-middleware');
+app.use(sassMiddleware({
+    src: path.join(__dirname, 'public'),
+    dest: path.join(__dirname, 'public'),
+    indentedSyntax: true, // true = .sass and false = .scss
+    sourceMap: true
+}));
+
 // Use the passport package
 app.use(passport.initialize());
 
@@ -40,53 +55,55 @@ app.use(passport.initialize());
 const port = process.env.PORT || 3000;
 
 // Create our Express router
-const router = express.Router();
+//const router = express.Router();
 
-// Create endpoints for /books
-router.route('/books')
-  .post(authController.isAuthenticated, bookController.postBooks)
-  .get(authController.isAuthenticated, bookController.getBooks);
-
-router.route('/books/:book_id')
-  .get(authController.isAuthenticated, bookController.getBook)
-  .put(authController.isAuthenticated, bookController.putBook)
-  .delete(authController.isAuthenticated, bookController.deleteBook);
-
-router.route('/users')
-  .post(userController.postUsers)
-  .get(authController.isAuthenticated, userController.getUsers);
-
-router.route('/clients')
-  .post(authController.isAuthenticated, clientController.postClients)
-  .get(authController.isAuthenticated, clientController.getClients);
-
-// Create endpoint handlers for oauth2 authorize
-router.route('/oauth2/authorize')
-  .get(authController.isAuthenticated, oauth2Controller.authorization)
-  .post(authController.isAuthenticated, oauth2Controller.decision);
-
-// Create endpoint handlers for oauth2 token
-router.route('/oauth2/token')
-  .post(authController.isClientAuthenticated, oauth2Controller.token);
-
-// Register all our routes with /api
-app.use('/api', router);
+// router.route('/users')
+//   .post(userController.postUsers)
+//   .get(authController.isAuthenticated, userController.getUsers);
+//
+// router.route('/clients')
+//   .post(authController.isAuthenticated, clientController.postClients)
+//   .get(authController.isAuthenticated, clientController.getClients);
+//
+// // Create endpoint handlers for oauth2 authorize
+// router.route('/oauth2/authorize')
+//   .get(authController.isAuthenticated, oauth2Controller.authorization)
+//   .post(authController.isAuthenticated, oauth2Controller.decision);
+//
+// // Create endpoint handlers for oauth2 token
+// router.route('/oauth2/token')
+//   .post(authController.isClientAuthenticated, oauth2Controller.token);
+//
+// // Register all our routes with /api
+// app.use('/api', router);
 
 // Start the server
 app.listen(port);
 
-// uuidService
-const uuidService = require('./src/server/services/uuid/UUIDService');
-uuidService.start(9901);
 
-// identity service
-const identityService = require('./src/server/services/identity/IdentityService');
-identityService.start(9902);
+const indexRoute = require('./routes/index');
+indexRoute(app);
 
-// permission service
-const permissionService = require('./src/server/services/permission/PermissionService');
-permissionService.start(9903);
+const logonRoute = require('./routes/logon');
+logonRoute(app);
 
 
-const proxyService = require('./src/server/services/proxy/ProxyService')
-proxyService.start(9904);
+startServices =() =>
+{
+    // uuidService
+    const uuidService = require('./src/server/services/uuid/UUIDService');
+    uuidService.start(9901);
+
+    // identity service
+    const identityService = require('./src/server/services/identity/IdentityService');
+    identityService.start(9902);
+
+    // permission service
+    const permissionService = require('./src/server/services/permission/PermissionService');
+    permissionService.start(9903);
+
+
+    const proxyService = require('./src/server/services/proxy/ProxyService')
+    proxyService.start(9904);
+}
+startServices();

@@ -3,7 +3,6 @@ const oauth2orize = require('oauth2orize');
 const User = require('../models/user');
 const Client = require('../models/client');
 const Token = require('../models/token');
-const Code = require('../models/code');
 
 // Create an Oauth 2.0 server
 const server = oauth2orize.createServer();

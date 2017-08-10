@@ -12,11 +12,8 @@ module.exports = (app) => {
         res.render('logon', dataMode);
     });
 
-    app.post('/logon',
-        passport.authenticate('local', {failureRedirect: '/logon'}),
-        function (req, res) {
+    app.post('/logon',function (req, res) {
             res.redirect('/');
         });
 
-
-};
+}
