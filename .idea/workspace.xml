@@ -2,6 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd0aef1e-738f-4558-9744-67bcfedc164f" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/snd/swooshby.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/image/bg001.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/image/bg002.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/image/bg003.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/App.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/ajax/Ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/client/overlay/OverlayTimer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/server/services/randomorg/random.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/footer.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/header.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/History.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/commander/LICENSE" afterPath="" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/ejs.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.ejs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.html" afterPath="" />
@@ -72,6 +90,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include.ejs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/tmp/include_preprocessor.ejs" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ejs/test/tmp/renderFile.ejs" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/finalhandler/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/finalhandler/README.md" afterPath="" />
@@ -124,6 +143,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core/node_boot.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/requirements.txt" afterPath="" />
+=======
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/changelog.md" afterPath="" />
@@ -131,6 +152,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/glob.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/jasmine/node_modules/glob/sync.js" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/LICENSE" afterPath="" />
@@ -144,11 +166,14 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/test/post.test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/test/pre.test.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/kareem/test/wrap.test.js" afterPath="" />
+=======
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/debug/bower.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/LICENSE.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/ms/package.json" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/.coveralls.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/.eslintrc" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterPath="" />
@@ -232,6 +257,16 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/topology_base.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" afterPath="" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/blocking_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/connect_test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/simple_2_document_limit_toArray.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/t.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/test34.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/test_bug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/.vscode/last.sql" afterPath="" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/CHANGELOG.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/README.md" afterPath="" />
@@ -250,6 +285,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/then.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/utils.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/es6-promise/package.json" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/.npmignore" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/.travis.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/CONTRIBUTING.md" afterPath="" />
@@ -274,6 +310,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/writable.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" afterPath="" />
+=======
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/README.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/_DataView.js" afterPath="" />
@@ -1326,6 +1364,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/zipObject.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/zipObjectDeep.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/lodash/zipWith.js" afterPath="" />
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/LICENSE" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/README.md" afterPath="" />
@@ -1342,31 +1381,112 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/index.js" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/node-sass/vendor/win32-x64-57/binding.node" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/History.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/parts/footer.ejs" afterPath="$PROJECT_DIR$/src/client/css/style.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/parts/head.ejs" afterPath="$PROJECT_DIR$/views/head.ejs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/parts/sidenac.ejs" afterPath="$PROJECT_DIR$/views/sidenav.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/.gitkeep" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/_mocha" afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/jasmine" afterPath="$PROJECT_DIR$/node_modules/.bin/jasmine" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/mocha" afterPath="$PROJECT_DIR$/node_modules/.bin/mocha" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/accepts/package.json" afterPath="$PROJECT_DIR$/node_modules/accepts/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/array-flatten/package.json" afterPath="$PROJECT_DIR$/node_modules/array-flatten/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterPath="$PROJECT_DIR$/node_modules/bluebird/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/browser-stdout/package.json" afterPath="$PROJECT_DIR$/node_modules/browser-stdout/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bson/package.json" afterPath="$PROJECT_DIR$/node_modules/bson/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/content-disposition/package.json" afterPath="$PROJECT_DIR$/node_modules/content-disposition/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/crc/package.json" afterPath="$PROJECT_DIR$/node_modules/crc/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/destroy/package.json" afterPath="$PROJECT_DIR$/node_modules/destroy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/diff/package.json" afterPath="$PROJECT_DIR$/node_modules/diff/package.json" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/Jakefile" afterPath="$PROJECT_DIR$/node_modules/ejs/Jakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/README.md" afterPath="$PROJECT_DIR$/node_modules/ejs/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.js" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" afterPath="$PROJECT_DIR$/node_modules/ejs/ejs.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" afterPath="$PROJECT_DIR$/node_modules/ejs/lib/ejs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ejs/package.json" afterPath="$PROJECT_DIR$/node_modules/ejs/package.json" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/LICENSE" afterPath="$PROJECT_DIR$/node_modules/express-session/LICENSE" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/encodeurl/package.json" afterPath="$PROJECT_DIR$/node_modules/encodeurl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/escape-html/package.json" afterPath="$PROJECT_DIR$/node_modules/escape-html/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/etag/package.json" afterPath="$PROJECT_DIR$/node_modules/etag/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/exit/package.json" afterPath="$PROJECT_DIR$/node_modules/exit/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/exit/test/fixtures/create-files.sh" afterPath="$PROJECT_DIR$/node_modules/exit/test/fixtures/create-files.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/express-session/HISTORY.md" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/README.md" afterPath="$PROJECT_DIR$/node_modules/express-session/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/index.js" afterPath="$PROJECT_DIR$/node_modules/express-session/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/express-session/node_modules/debug/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/package.json" afterPath="$PROJECT_DIR$/node_modules/express-session/package.json" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/session/cookie.js" afterPath="$PROJECT_DIR$/node_modules/express-session/session/cookie.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/session/memory.js" afterPath="$PROJECT_DIR$/node_modules/express-session/session/memory.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/session/session.js" afterPath="$PROJECT_DIR$/node_modules/express-session/session/session.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-session/session/store.js" afterPath="$PROJECT_DIR$/node_modules/express-session/session/store.js" />
+=======
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/History.md" afterPath="$PROJECT_DIR$/node_modules/express/History.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/Readme.md" afterPath="$PROJECT_DIR$/node_modules/express/Readme.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/middleware/query.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/utils.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/lib/view.js" afterPath="$PROJECT_DIR$/node_modules/express/lib/view.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express/package.json" afterPath="$PROJECT_DIR$/node_modules/express/package.json" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/README.md" afterPath="$PROJECT_DIR$/node_modules/jasmine/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/lib/reporters/console_reporter.js" afterPath="$PROJECT_DIR$/node_modules/jasmine/lib/reporters/console_reporter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/package.json" afterPath="$PROJECT_DIR$/node_modules/jasmine/package.json" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/finalhandler/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/finalhandler/package.json" afterPath="$PROJECT_DIR$/node_modules/finalhandler/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/forwarded/package.json" afterPath="$PROJECT_DIR$/node_modules/forwarded/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/fresh/package.json" afterPath="$PROJECT_DIR$/node_modules/fresh/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" afterPath="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/growl/package.json" afterPath="$PROJECT_DIR$/node_modules/growl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/hooks-fixed/package.json" afterPath="$PROJECT_DIR$/node_modules/hooks-fixed/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/Cakefile" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/Cakefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/README.md" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/bower.json" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/ipaddr.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/lib/ipaddr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/src/ipaddr.coffee" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/src/ipaddr.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ipaddr.js/test/ipaddr.test.coffee" afterPath="$PROJECT_DIR$/node_modules/ipaddr.js/test/ipaddr.test.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/README.md" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/RELEASE.md" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/RELEASE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/bower.json" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/bower.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/jasmine_core.egg-info/PKG-INFO" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/jasmine_core.egg-info/PKG-INFO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core/jasmine.js" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/lib/jasmine-core/jasmine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine-core/package.json" afterPath="$PROJECT_DIR$/node_modules/jasmine-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/README.md" afterPath="$PROJECT_DIR$/node_modules/jasmine/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/bin/jasmine.js" afterPath="$PROJECT_DIR$/node_modules/jasmine/bin/jasmine.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/lib/reporters/console_reporter.js" afterPath="$PROJECT_DIR$/node_modules/jasmine/lib/reporters/console_reporter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jasmine/package.json" afterPath="$PROJECT_DIR$/node_modules/jasmine/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/json3/package.json" afterPath="$PROJECT_DIR$/node_modules/json3/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/kareem/index.js" afterPath="$PROJECT_DIR$/node_modules/kareem/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/kareem/package.json" afterPath="$PROJECT_DIR$/node_modules/kareem/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash._baseassign/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash._baseassign/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash._basecopy/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash._basecopy/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash._basecreate/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash._basecreate/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash._getnative/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash._getnative/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash._isiterateecall/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash._isiterateecall/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.create/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.create/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.isarguments/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.isarguments/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.isarray/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.isarray/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" afterPath="$PROJECT_DIR$/node_modules/lodash.keys/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" afterPath="$PROJECT_DIR$/node_modules/merge-descriptors/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/methods/package.json" afterPath="$PROJECT_DIR$/node_modules/methods/package.json" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/mocha/CHANGELOG.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/README.md" afterPath="$PROJECT_DIR$/node_modules/mocha/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/bin/_mocha" afterPath="$PROJECT_DIR$/node_modules/mocha/bin/_mocha" />
@@ -1386,6 +1506,39 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/package.json" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/node_modules/supports-color/package.json" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/supports-color/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mocha/package.json" afterPath="$PROJECT_DIR$/node_modules/mocha/package.json" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/index.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/scram.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/auth/scram.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/connection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/pool.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/pool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/utils.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/connection/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/mongos.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/mongos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset_state.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/replset_state.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/server.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/lib/topologies/shared.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb-core/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/download.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/upload.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs-stream/upload.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/grid_store.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/grid_store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongos.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/replset.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/replset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/node_modules/readable-stream/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/package.json" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" afterPath="$PROJECT_DIR$/node_modules/mongodb/yarn.lock" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/History.md" afterPath="$PROJECT_DIR$/node_modules/mongoose/History.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/aggregate.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/browserDocument.js" />
@@ -1408,13 +1561,246 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js" afterPath="$PROJECT_DIR$/node_modules/mongoose/lib/services/setDefaultsOnInsert.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/node_modules/async/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/async/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mongoose/package.json" afterPath="$PROJECT_DIR$/node_modules/mongoose/package.json" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/morgan/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mpath/package.json" afterPath="$PROJECT_DIR$/node_modules/mpath/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mpromise/package.json" afterPath="$PROJECT_DIR$/node_modules/mpromise/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/mquery/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mquery/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/node_modules/mquery/node_modules/sliced/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/mquery/package.json" afterPath="$PROJECT_DIR$/node_modules/mquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/muri/package.json" afterPath="$PROJECT_DIR$/node_modules/muri/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/negotiator/package.json" afterPath="$PROJECT_DIR$/node_modules/negotiator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/package.json" afterPath="$PROJECT_DIR$/node_modules/node-sass/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.editorconfig" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.editorconfig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitattributes" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.gitattributes" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/ISSUE_TEMPLATE.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.github/ISSUE_TEMPLATE.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.npmignore" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/COPYING" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/COPYING" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/GNUmakefile.am" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/GNUmakefile.am" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/INSTALL" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/INSTALL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/LICENSE" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile.conf" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Makefile.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Readme.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/SECURITY.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/SECURITY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/appveyor.yml" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/configure.ac" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/configure.ac" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/libsass.spec" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/libsass.spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/plugin.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/contrib/plugin.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/README.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-context.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-doc.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-doc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-function.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-importer.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-example.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-example.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/api-value.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-darwin.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-darwin.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-gentoo.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-gentoo.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-windows.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-on-windows.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-shared-library.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-shared-library.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-autotools.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-autotools.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-makefiles.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-makefiles.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-mingw.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-visual-studio.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build-with-visual-studio.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/build.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/compatibility-plan.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/compatibility-plan.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/contributing.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/custom-functions-internal.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/custom-functions-internal.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/dev-ast-memory.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/dev-ast-memory.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/implementations.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/implementations.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/plugins.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/plugins.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/setup-environment.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/source-map-internals.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/source-map-internals.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/trace.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/trace.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/triage.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/unicode.md" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/docs/unicode.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/extconf.rb" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/extconf.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/base.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/base.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/context.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/context.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/functions.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/functions.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/values.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/values.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h.in" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass/version.h.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass2scss.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/include/sass2scss.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/m4-ax_cxx_compile_stdcxx_11.m4" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/m4/m4-ax_cxx_compile_stdcxx_11.m4" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/res/resource.rc" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/res/resource.rc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/bootstrap" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/bootstrap" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/branding" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/branding" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-libsass" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-libsass" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-plugin" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-build-plugin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-compiler" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-compiler" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-deps" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-install-deps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-report-coverage" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/ci-report-coverage" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/spec" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/spec" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-driver" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-driver" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-runner" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/tap-runner" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/test-leaks.pl" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/script/test-leaks.pl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/GNUmakefile.am" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/GNUmakefile.am" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_def_macros.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_def_macros.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/ast_fwd_decl.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/cencode.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/cencode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/encode.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/b64/encode.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/backtrace.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/backtrace.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/base64vlq.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/bind.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/c99func.c" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/c99func.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cencode.c" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cencode.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/check_nesting.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/color_maps.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/constants.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/context.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/cssize.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debug.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debug.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debugger.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/debugger.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/emitter.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/environment.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/error_handling.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/eval.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/expand.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/extend.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/file.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/functions.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/inspect.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/json.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/kwd_arg_macros.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/kwd_arg_macros.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/lexer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/listize.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/mapping.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/mapping.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/memory/SharedPtr.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/node.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/operation.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/operation.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/output.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/parser.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/paths.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/paths.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/plugins.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/position.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/prelexer.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/remove_placeholders.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass2scss.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass2scss.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_context.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_functions.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_util.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/sass_values.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/source_map.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/subset_map.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/support/libsass.pc.in" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_c.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/to_value.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/units.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/checked.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/checked.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/core.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/core.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/unchecked.h" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8/unchecked.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/utf8_string.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/util.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.hpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/src/values.hpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_node.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_node.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_paths.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_paths.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_selector_difference.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_selector_difference.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_specificity.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_specificity.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_subset_map.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_subset_map.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_superselector.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_superselector.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_unification.cpp" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/test/test_unification.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/version.sh" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/version.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.sln" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.sln" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.targets" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.targets" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj.filters" afterPath="$PROJECT_DIR$/node_modules/node-sass/src/libsass/win/libsass.vcxproj.filters" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth2orize/README.md" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/clientCredentials.js" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/clientCredentials.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/password.js" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/password.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/refreshToken.js" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/lib/exchange/refreshToken.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/oauth2orize/package.json" afterPath="$PROJECT_DIR$/node_modules/oauth2orize/package.json" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/parseurl/package.json" afterPath="$PROJECT_DIR$/node_modules/parseurl/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" afterPath="$PROJECT_DIR$/node_modules/path-to-regexp/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/index.js" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" afterPath="$PROJECT_DIR$/node_modules/proxy-addr/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/random-bytes/package.json" afterPath="$PROJECT_DIR$/node_modules/random-bytes/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/range-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/range-parser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/regexp-clone/package.json" afterPath="$PROJECT_DIR$/node_modules/regexp-clone/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/require_optional/package.json" afterPath="$PROJECT_DIR$/node_modules/require_optional/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/resolve-from/package.json" afterPath="$PROJECT_DIR$/node_modules/resolve-from/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/send/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/send/package.json" afterPath="$PROJECT_DIR$/node_modules/send/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/serve-static/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/serve-static/package.json" afterPath="$PROJECT_DIR$/node_modules/serve-static/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/sliced/package.json" afterPath="$PROJECT_DIR$/node_modules/sliced/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uid-safe/HISTORY.md" afterPath="$PROJECT_DIR$/node_modules/uid-safe/HISTORY.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uid-safe/index.js" afterPath="$PROJECT_DIR$/node_modules/uid-safe/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/uid-safe/package.json" afterPath="$PROJECT_DIR$/node_modules/uid-safe/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/vary/package.json" afterPath="$PROJECT_DIR$/node_modules/vary/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/logon.js" afterPath="$PROJECT_DIR$/routes/logon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js" afterPath="$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/config.js" afterPath="$PROJECT_DIR$/src/server/config.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" afterPath="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" afterPath="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.ejs" afterPath="$PROJECT_DIR$/views/index.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/logon.ejs" afterPath="$PROJECT_DIR$/views/logon.ejs" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -1427,9 +1813,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.58307403">
+    <splitter split-orientation="horizontal" split-proportion="0.4474074">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
           <file leaf-file-name="logon.ejs" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/logon.ejs">
               <provider selected="true" editor-type-id="text-editor">
@@ -1440,6 +1827,84 @@
                     <element signature="n#style#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#h2#0;n#form#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+=======
+          <file leaf-file-name="logon.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/routes/logon.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="510">
+                  <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="IdentityService.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1136">
+                  <caret line="147" column="21" lean-forward="false" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="RestServiceFactory.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/RestServiceFactory.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1218">
+                  <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/server.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="589">
+                  <caret line="132" column="64" lean-forward="true" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="71" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="PermissionService.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/permission/PermissionService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="584">
+                  <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UUIDService.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/uuid/UUIDService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="634">
+                  <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ProxyService.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="97">
+                  <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="40" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="random.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/services/randomorg/random.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-1562">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
                 </state>
               </provider>
             </entry>
@@ -1467,12 +1932,26 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server.js">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="SecurePrxoyAPI.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="102">
+<<<<<<< HEAD
                   <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+=======
+                  <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/server/config.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="468">
+                  <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
                   <folding />
                 </state>
               </provider>
@@ -1486,6 +1965,7 @@
     <findStrings>
       <find>activeToken</find>
       <find>REST</find>
+      <find>mdm_body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1496,20 +1976,30 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/server/odsPerms.js" />
-        <option value="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" />
-        <option value="$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js" />
         <option value="$PROJECT_DIR$/src/server/services/permission/PermissionService.js" />
         <option value="$PROJECT_DIR$/src/server/services/proxy/ProxyService.js" />
         <option value="$PROJECT_DIR$/src/server/services/identity/UserDAO.js" />
-        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
         <option value="$PROJECT_DIR$/views/Login_Registry.ejs" />
-        <option value="$PROJECT_DIR$/routes/logon.js" />
         <option value="$PROJECT_DIR$/views/_index.html" />
-        <option value="$PROJECT_DIR$/views/index.ejs" />
         <option value="$PROJECT_DIR$/routes/index.js" />
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/controllers/oauth2.js" />
+        <option value="$PROJECT_DIR$/src/cleint/App.js" />
+        <option value="$PROJECT_DIR$/views/sidenav.ejs" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/dist/bundle.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/.bablerc" />
+        <option value="$PROJECT_DIR$/src/client/App.js" />
         <option value="$PROJECT_DIR$/views/logon.ejs" />
+        <option value="$PROJECT_DIR$/views/head.ejs" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/routes/logon.js" />
+        <option value="$PROJECT_DIR$/src/server/services/identity/IdentityService.js" />
+        <option value="$PROJECT_DIR$/src/server/config.js" />
+        <option value="$PROJECT_DIR$/src/server/services/uuid/UUIDService.js" />
+        <option value="$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js" />
       </list>
     </option>
   </component>
@@ -1531,11 +2021,19 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
+=======
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="158" />
+    <option name="y" value="70" />
+    <option name="width" value="1680" />
+    <option name="height" value="948" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -1552,6 +2050,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -1559,16 +2058,6 @@
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
@@ -1596,44 +2085,57 @@
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="identity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="cipher" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="permission" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="shared" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="randomorg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="uuid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restful-api-with-node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restful-api-with-node" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1647,13 +2149,18 @@
     <property name="add_unversioned_files" value="true&#10;/Users/danielstjohn/Desktop/hle/restful-api-with-node/.gitignore&#10;/Users/danielstjohn/Desktop/hle/restful-api-with-node/src/server/http/get.js" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/server/services" />
+      <recent name="$PROJECT_DIR$/src/cleint" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/cleint/image" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="C:\Users\dstjohn\Desktop\Hack\restful-api-with-node\views" />
       <recent name="C:\Users\dstjohn\Desktop\Hack\restful-api-with-node\public" />
       <recent name="$PROJECT_DIR$/src/server/services/proxy" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2125,26 +2632,46 @@
       <workItem from="1501014102433" duration="18000" />
       <workItem from="1501014178336" duration="6525000" />
       <workItem from="1501617511173" duration="13817000" />
+<<<<<<< HEAD
       <workItem from="1501801371114" duration="10869000" />
+=======
+      <workItem from="1501801371114" duration="9112000" />
+      <workItem from="1502405038868" duration="11966000" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="58005000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="68214000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15376514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18392856" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5021097" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36008677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3595388" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27874187" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20368475" sideWeight="0.4978903" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4197397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47274634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2166,15 +2693,15 @@
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34273317" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.4978903" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36008677" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27874187" sideWeight="0.4978903" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15376514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.005424955" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27982646" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23969631" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2193,145 +2720,36 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js</url>
-          <line>145</line>
+          <line>147</line>
           <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/logon.js</url>
-          <line>7</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/logon.js</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/routes/index.js</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="40" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/server/services/RestServiceFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/uuid/UUIDService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/permission/PermissionService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3225">
-          <caret line="215" column="41" lean-forward="false" selection-start-line="215" selection-start-column="31" selection-end-line="215" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/RestServiceFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/jasmine_examples/PlayerSpec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/uuid/UUIDService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/permission/PermissionService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client/ui/OverlayTimer.js" />
     <entry file="file://$PROJECT_DIR$/controllers/auth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-799">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -2359,49 +2777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/uuid/UUIDService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/RestServiceFactory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-329">
-          <caret line="88" column="2" lean-forward="false" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/permission/PermissionService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="45" column="25" lean-forward="false" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="65" lean-forward="false" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="47" column="2" lean-forward="false" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2417,7 +2796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2425,72 +2803,151 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/parts/head.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/parts/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/parts/sidenac.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/dialog.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/dialog.ejs" />
     <entry file="file://$PROJECT_DIR$/public/Neon_map.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/_index.html">
+    <entry file="file://$PROJECT_DIR$/views/_index.html" />
+    <entry file="file://$PROJECT_DIR$/models/book.js" />
+    <entry file="file://$PROJECT_DIR$/models/code.js" />
+    <entry file="file://$PROJECT_DIR$/controllers/book.js" />
+    <entry file="file://$PROJECT_DIR$/controllers/user.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/client.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/oauth2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/css/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/overlay/OverlayTimer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <marker date="1495485726000" expanded="true" signature="39:184" ph="{...}" />
+            <marker date="1495485726000" expanded="true" signature="212:818" ph="{...}" />
+            <marker date="1495485726000" expanded="true" signature="244:494" ph="{...}" />
+            <marker date="1495485726000" expanded="true" signature="532:607" ph="{...}" />
+            <marker date="1495485726000" expanded="true" signature="642:816" ph="{...}" />
+            <marker date="1495485726000" expanded="true" signature="671:764" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/sidenav.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="60" column="29" lean-forward="false" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+          <folding>
+            <marker date="1502409287000" expanded="true" signature="562:1576" ph="{&quot;async&quot;: &quot;^2.5.0&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/dist/bundle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502410851000" expanded="true" signature="1391193:1391202" ph="{...}" />
+            <marker date="1502410851000" expanded="true" signature="1391193:1391214" ph="[...]" />
+            <marker date="1502410851000" expanded="true" signature="1391195:1391200" ph="/*...*/" />
+            <marker date="1502410851000" expanded="true" signature="1391204:1391212" ph="/*...*/" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="118" lean-forward="false" selection-start-line="23" selection-start-column="118" selection-end-line="23" selection-end-column="118" />
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/token.js">
+    <entry file="file://$PROJECT_DIR$/models/client.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2506,7 +2963,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/client.js">
+    <entry file="file://$PROJECT_DIR$/models/token.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2514,7 +2971,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/code.js">
+    <entry file="file://$PROJECT_DIR$/src/client/ajax/Ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="111" column="14" lean-forward="false" selection-start-line="111" selection-start-column="4" selection-end-line="111" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/client/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/logon.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/header.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -2522,54 +3006,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js">
+    <entry file="file://$PROJECT_DIR$/views/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="30">
+          <caret line="2" column="46" lean-forward="false" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/user.js">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/models/book.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/models/token.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/server/services/permission/PermissionService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="105" column="4" lean-forward="false" selection-start-line="105" selection-start-column="4" selection-end-line="105" selection-end-column="4" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/models/user.js">
+=======
+    <entry file="file://$PROJECT_DIR$/src/server/services/proxy/ProxyService.js">
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/services/randomorg/random.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1562">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/services/uuid/UUIDService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/services/RestServiceFactory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1218">
+          <caret line="80" column="4" lean-forward="false" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="132" column="64" lean-forward="true" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/server/api/SecurePrxoyAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
+<<<<<<< HEAD
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+=======
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/client.js">
+    <entry file="file://$PROJECT_DIR$/src/server/services/identity/IdentityService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-1136">
+          <caret line="147" column="21" lean-forward="false" selection-start-line="147" selection-start-column="21" selection-end-line="147" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/oauth2.js">
+    <entry file="file://$PROJECT_DIR$/routes/logon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/views/logon.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -2598,5 +3153,7 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> 50284b35b31dd8c37c7664f2a4b73abd8ef1fe3a
   </component>
 </project>
