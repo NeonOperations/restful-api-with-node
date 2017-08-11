@@ -38,9 +38,46 @@ app.use(session({
 //
 app.use(express.static(path.join(__dirname, 'public')));
 
+// json
+app.use(function (req, res, next) {
+    let data = '';
+    req.on('data', function (chunk) {
+        data += chunk;
+    });
+
+    req.on('end', function () {
+        req.my_body = data;
+        console.log(data);
+        // If you give me a content type I will convert what I believe
+        // the body contents to be to an object. Otherwise you just get
+        // the raw data
+        if (req.my_body) {
+            let type = req.headers['content-type'] || '';
+            switch (type) {
+                case 'application/x-www-form-urlencoded':
+                    req.body = querystring.parse(data); // a=b&foo=bar%40 etc
+                    break;
+                case 'application/json':
+                    try {
+                        req.body = JSON.parse(data);
+                    }
+                    catch (err) {
+                        req.body = {};
+                        req.bodyError = err;
+                    }
+                    break;
+                default:
+                    req.body = data;
+                    break;
+            }
+        }
+        next();
+    });
+});
 
 
-var sassMiddleware = require('node-sass-middleware');
+
+let sassMiddleware = require('node-sass-middleware');
 app.use(sassMiddleware({
     src: path.join(__dirname, 'public'),
     dest: path.join(__dirname, 'public'),
@@ -81,15 +118,17 @@ const port = process.env.PORT || 3000;
 app.listen(port);
 
 
-const indexRoute = require('./routes/index');
-indexRoute(app);
+setupPages = () => {
+    const indexRoute = require('./routes/index');
+    indexRoute(app);
 
-const logonRoute = require('./routes/logon');
-logonRoute(app);
+    const logonRoute = require('./routes/logon');
+    logonRoute(app);
+}
+setupPages();
 
 
-startServices =() =>
-{
+startServices =() => {
     // uuidService
     const uuidService = require('./src/server/services/uuid/UUIDService');
     uuidService.start(9901);

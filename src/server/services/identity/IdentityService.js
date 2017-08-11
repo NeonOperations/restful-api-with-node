@@ -15,10 +15,12 @@ function Error(errorMessage, errorCode, originalMessage, stackTrace) {
     this.stack_trace = stackTrace;
 }
 
+
 // user database
 let records = [
-    {id: 1, username: 'neon', password: 'neon', displayName: 'Neon', emails: [{value: 'neon@neon.com'}]},
-    {id: 2, username: 'admin', password: 'admin', displayName: 'Admin', emails: [{value: 'admin@neon.com'}]}
+    {id: 1, username: 'neon',  password: 'neon', displayName: 'Neon', emails: [{value: 'neon@neon.com'}]},
+    {id: 2, username: 'admin', password: 'admin', displayName: 'Admin', emails: [{value: 'admin@neon.com'}]},
+    {id: 3, username: 'dstjohn', password: 'dstjohn', displayName: 'dstjohn', emails: [{value: 'dstjohn@battelleecology.org'}]}
 ];
 
 

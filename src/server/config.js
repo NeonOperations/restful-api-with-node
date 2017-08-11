@@ -37,5 +37,48 @@ module.exports = {
 
         'admin_db': 'admin',
 
-    }
+    },
+
+    services : [
+        {
+            name: "UUID",
+            host: "localhost",
+            port: 9001,
+            endpoints:[{
+                method: "get",
+                path: "uuid",
+                provider : require('../server/services/uuid/UUIDService').provider
+                }
+            ]
+        }
+        ,
+        {
+            name: "Identity",
+            host: "localhost",
+            port: 9002,
+            endpoints: [
+                {method: "post", path: "requesttoken"},
+                {method: "post", path: "validatetoken"},
+                {method: "post", path: "revoketoken"},
+                {method: "post", path: "revokeuser"},
+                {method: "post", path: "userfromtoken"}
+                ]
+        }
+        ,
+        {
+            name: "Permission",
+            host: "localhost",
+            port: 9003,
+            endpoints: [{method: "post", path: "requestpermission"}]
+        }
+        ,
+        {
+            name: "ProxyService",
+            host: "localhost",
+            port: 9004,
+            endpoints: [{method: "post", path: "proxy"}]
+        }
+    ]
+
+
 };

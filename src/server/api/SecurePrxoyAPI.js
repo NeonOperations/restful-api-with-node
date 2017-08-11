@@ -14,18 +14,31 @@ let API = {
     ,
     Identity: {
 
+        /**
+         * The callback returns the
+         * {
+         *  success : <true|false>,
+         *  payload : < undefined | { token : "string"} >,
+         *  error   : < null | object>
+         *  }
+         * @param username
+         * @param password
+         * @param callback
+         * @constructor
+         */
         RequestToken: (username, password, callback) => {
 
             // TODO:  get url from config file
-            let url = "http://localhost:9901/requesttoken";
-            request.post(url, {username: username, password: password}, (ret) => {
+            let url = "http://localhost:9902/requesttoken";
+            let body = {username: username, password: password};
+            request.post(url, body, (ret) => {
                 callback(ret);
             })
         }
         ,
         RevokeToken: (token, callback) => {
             // TODO:  get url from config file
-            let url = "http://localhost:9901/revoketoken";
+            let url = "http://localhost:9902/revoketoken";
             request.post(url, {token: token}, (ret) => {
                 callback(ret);
             })
@@ -33,14 +46,14 @@ let API = {
         ,
         RevokeUser: (username, callback) => {
             // TODO:  get url from config file
-            let url = "http://localhost:9901/revokeuser";
+            let url = "http://localhost:9902/revokeuser";
             request.post(url, {username: username}, (ret) => {
                 callback(ret);
             })
         },
         ValidateToken: (token, callback) => {
             // TODO:  get url from config file
-            let url = "http://localhost:9901/validatetoken";
+            let url = "http://localhost:9902/validatetoken";
             request.post(url, {token: token}, (ret) => {
                 callback(ret);
             })
@@ -48,7 +61,7 @@ let API = {
 
         GetUserFromToken(token, callback) {
             // TODO:  get url from config file
-            let url = "http://localhost:9901/usertotoken";
+            let url = "http://localhost:9902/usertotoken";
             request.post(url, {token: token}, (ret) => {
                 callback(ret);
             })
