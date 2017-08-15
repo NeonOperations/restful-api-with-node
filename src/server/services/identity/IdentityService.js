@@ -46,7 +46,7 @@ removeExpiredToken = () => {
             })
         },
         // interval
-        10 * 1000);
+        10 * 60 * 1000);
 };
 
 removeExpiredToken();
@@ -143,22 +143,14 @@ let authenticate = (username, clearTextPassword, callback) => {
 module.exports.Authenticate = authenticate;
 
 
-let requestToken = (req, res) => {
 
-    let txtBody = req.body;
-    let body = JSON.parse(txtBody);
-    let username = body.username;
-    let clearTextPassword = body.password;
-
+let requestToken = (username, clearTextPassword,callback) => {
     authenticate(username, clearTextPassword, function (err) {
         let response = {};
         if (!err) {
-
-
+            response.success = true;
             if (activeToken[username]) {
-
                 response.payload = {token: activeToken[username].token};
-
             } else {
 
                 let token = uuid.getUUID();
@@ -172,18 +164,16 @@ let requestToken = (req, res) => {
                 }
             }
         }
-
         else {
             response.success = false;
             response.error = err;
         }
-        res.json(response);
+        callback(response);
     });
 };
 module.exports.RequestToken = requestToken;
 
-const validateToken = (req, res) => {
-    let token = JSON.parse(req.body).token;
+const validateToken = (token,callback) => {
     let keys = Object.keys(activeToken);
     let isValid = false;
     for (let key of keys) {
@@ -194,43 +184,64 @@ const validateToken = (req, res) => {
             break;
         }
     }
-    res.json({success: true, payload: {isValid: isValid}});
+    callback(isValid);
 };
 module.exports.ValidateToken = validateToken;
 
 
-let revokeUser = (req, res) => {
-    if (activeToken.hasOwnProperty(req.body.username)) {
-        activeToken.removeProperty(req.body.username);
+let revokeUser = (username, callback) => {
+
+    if (activeToken[username]) {
+        delete activeToken[username];
     }
-    req.json({success: true})
+   callback({success: true})
 
 };
 module.exports.RevokeUser = revokeUser;
 
 
-let revokeToken = (req, res) => {
-    let token = req.body.token;
-    let keys = Object.keys(activeToken);
+
+let revokeToken = (token, callback) => {
+
     let isSuccess = false;
 
-    for (let index = 0; index.keys.length; index++) {
+    let keys = Object.keys(activeToken);
+    let isValid = false;
+    for (let key of keys) {
         let entry = activeToken[key];
-        if (entry.token === token) {
-            activeToken.removeProperty(key);
+        if ( entry) {
+            delete activeToken[key];
             isSuccess = true;
-            break;
         }
+        break;
     }
 
-    req.json({success: isSuccess})
+
+    callback({success: isSuccess})
 };
 module.exports.RevokeToken = revokeToken;
 
-const userFromToken = (req, res) => {
 
-    let body = JSON.parse(req.body);
-    const token = body.token;
+const userFromTokenSync = (token,callback) => {
+
+    const keys = Object.keys(activeToken);
+    let username = undefined;
+    let e = undefined;
+    for (let key of keys) {
+        let entry = activeToken[key];
+        e = entry;
+
+        if (entry.token === token) {
+            username = entry.username;
+            break;
+        }
+    }
+    return username;
+}
+module.exports.GetUserFromTokenSync = userFromTokenSync;
+
+const userFromToken = (token,callback) => {
+
     const keys = Object.keys(activeToken);
     let isSuccess = false;
     console.log(token);
@@ -248,8 +259,7 @@ const userFromToken = (req, res) => {
             break;
         }
     }
-
-    res.json({
+    callback({
         success: isSuccess,
         payload: {
             entry: e,
@@ -264,11 +274,42 @@ module.exports.ActiveToken = activeToken;
 
 module.exports.service = new RestServiceFactory("Identity",
     [
-        new RestEndpoint('POST', '/requesttoken', requestToken),
-        new RestEndpoint('POST', '/validatetoken', validateToken),
-        new RestEndpoint('POST', '/revoketoken', revokeToken),
-        new RestEndpoint('POST', '/revokeuser', revokeUser),
-        new RestEndpoint('POST', '/userfromtoken', userFromToken)
+        new RestEndpoint('POST', '/requesttoken', (req, res) => {
+            let response = res;
+            let txtBody = req.body;
+            let body = JSON.parse(txtBody);
+            let username = body.username;
+            let clearTextPassword = body.password;
+            requestToken(username,clearTextPassword,(response)=>{
+                res.json(response);
+            });
+        }),
+        new RestEndpoint('POST', '/validatetoken', (req, res) => {
+                let token = JSON.parse(req.body).token;
+                validateToken(token,(isValid)=>{
+                    res.json({success: true, payload: {isValid: isValid}});
+                });
+        }),
+        new RestEndpoint('POST', '/revoketoken', (req, res) => {
+            let body = JSON.parse(req.body);
+            let token = body.token;
+            revokeToken(token, (response)=>{
+                res.json(response);
+            });
+        }),
+        new RestEndpoint('POST', '/revokeuser', (req, res) => {
+            let username = req.body.username;
+            revokeUser(username,(response)=>{
+                res.json(response);
+            });
+        }),
+        new RestEndpoint('POST', '/userfromtoken',(req, res) => {
+            let body = JSON.parse(req.body);
+            const token = body.token;
+            userFromToken(token,(response)=>{
+                res.json(response);
+            })
+        })
     ]
 );
 

@@ -1,53 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<% include ./head.ejs%>
+<% include ./head.ejs %>
 
-<body>
+<% include ./header.ejs %>
 
+<body style="background-image: url('Neon_map.jpg')">
 
-<% include ./header.ejs%>
-
-
-<body>
 
 <div id="wrapper">
 
-    <!-- Sidebar -->
-    <% include ./sidenav.ejs%>
+    <% include ./sidenav.ejs %>
 
-    <!-- /#sidebar-wrapper -->
-
-    <!-- Page Content -->
     <div id="page-content-wrapper">
         <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Simple Sidebar</h1>
-                    <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a>
+            <div id="ods" class="row">
+                <div class="jumbotron">
+                    <table  class="table  table-bordered table-striped"
+                            id="ods_services"   cellspacing="0" width="100%"></table>
+
+                    <script>
+
+                        let cols = [
+                            {title : "Group"},
+                            { title : 'Service Name' },
+                            { title : 'Host'},
+                            { title :'Port'},
+                            { title :'Path'},
+                            { title :'Sub Path'},
+                            { title :'GET'},
+                            { title :'PUT'},
+                            { title :'POST'},
+                            { title :'DELETE'}
+                        ];
+
+
+                        let data = [];
+
+
+//                            [
+//                                "locations",
+//                                "den-devisd-1.ci.neoninternal.org",
+//                                "9090",
+//                                "neon-ods/api/locations",
+//                                "/siteinfo",
+//                                true,
+//                                false,
+//                                false,
+//                                false
+//                            ],
+//                            [
+//                                "locations",
+//                                "den-devisd-1.ci.neoninternal.org",
+//                                "9090",
+//                                "neon-ods/api/locations",
+//                                "/siteinfo",
+//                                true,
+//                                false,
+//                                false,
+//                                false
+//                            ]
+
+
+                        for ( let i =0 ; i < 1000; i++){
+                            data.push( [
+                                "<a>Admin</a>",
+                                "<a>locations</a>",
+                                "<a>den-devisd-1.ci.neoninternal.org<a>",
+                                "9090",
+                                "neon-ods/api/locations",
+                                "/siteinfo",
+                                "<input type='checkbox' value='true'>",
+                                "<input type='checkbox' value='true'>",
+                                "<input type='checkbox' value='true'>",
+                                "<input type='checkbox' value='true'>"
+                            ]);
+                        }
+
+
+
+                        $(document).ready(function () {
+                            $('#ods_services').DataTable({
+                                columns: cols,
+                                data: data
+
+                            });
+                        });
+                    </script>
+
+                </div>
+            </div>
+            <div id="cds" class="row" hidden>
+                <div class="jumbotron">
+                    <h1>CDS</h1>
+                </div>
+            </div>
+            <div id="srf" class="row" hidden>
+                <div class="jumbotron">
+                    <h1>SRF</h1>
                 </div>
             </div>
         </div>
     </div>
-    <!-- /#page-content-wrapper -->
 
 </div>
-<!-- /#wrapper -->
 
-<!-- jQuery -->
-<!--<script src="../public/js/jquery.js"></script>-->
-
-<!-- Bootstrap Core JavaScript -->
-<!--<script src="../public/js/bootstrap.min.js"></script>-->
-
-<!-- Menu Toggle Script -->
-<script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-</script>
 
 </body>
 
 </html>
+
+<script>
+
+    $("#menu-toggle").click(function (e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+</script>

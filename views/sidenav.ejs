@@ -1,32 +1,74 @@
 <!-- Sidebar -->
+
+<style>
+
+    rcorners1 {
+        border-radius: 25px;
+        background: #73AD21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+    }
+</style>
+
 <div id="sidebar-wrapper">
-    <ul class="sidebar-nav">
+
+    <ul class="sidebar-nav" class="rcorners1">
         <li class="sidebar-brand">
             <a href="#">
-                Start Bootstrap
+                Secure Proxy
             </a>
         </li>
         <li>
-            <a href="#">Dashboard</a>
+            <a id="sidenav_link_ods" onclick="SideNav.ShowIt('ods')">ODS</a>
         </li>
         <li>
-            <a href="#">Shortcuts</a>
+            <a id="sidenav_link_cds" onclick="SideNav.ShowIt('cds')">CDS</a>
+        </li>
+        <li class="sidebar-brand">
+            <a href="#">
+                Science
+            </a>
         </li>
         <li>
-            <a href="#">Overview</a>
-        </li>
-        <li>
-            <a href="#">Events</a>
-        </li>
-        <li>
-            <a href="#">About</a>
-        </li>
-        <li>
-            <a href="#">Services</a>
-        </li>
-        <li>
-            <a href="#">Contact</a>
+            <a id="sidenav_link_srf" onclick="SideNav.ShowIt('srf')">SRF</a>
         </li>
     </ul>
+
 </div>
-<!-- /#sidebar-wrapper -->
+
+<script>
+    let SideNav = {
+
+        // dom id for main content
+        list : ['ods', 'cds', 'srf']
+        ,
+        ShowIt: (id) => {
+            let hash = '#' + id;
+            SideNav.HideAll();
+            $(hash).show();
+        }
+        ,
+        HideIt: (id) => {
+            $("#" + id).hide();
+        }
+        ,
+        HideAll: () => {
+            SideNav.list.forEach(function (id) {
+                SideNav.HideIt(id);
+            });
+        }
+        ,
+        ShowODS: () => {
+            SideNav.ShowIt('ods');
+        }
+        ,
+        ShowCDS: () => {
+            SideNav.ShowIt('cds');
+        }
+        ,
+        ShowSRF: () => {
+            SideNav.ShowIt('srf');
+        }
+    };
+</script>

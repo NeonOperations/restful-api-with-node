@@ -2,8 +2,8 @@
 
 // user database
 let records = [
-    {id: 1, username: 'neon', password: 'neon', displayName: 'Neon', emails: [{value: 'neon@neon.com'}]},
-    {id: 2, username: 'admin', password: 'admin', displayName: 'Admin', emails: [{value: 'admin@neon.com'}]}
+    {username: 'neon', password: 'neon', displayName: 'Neon', emails: [{value: 'neon@neon.com'}]},
+    {username: 'admin', password: 'admin', displayName: 'Admin', emails: [{value: 'admin@neon.com'}]}
 ];
 
 
@@ -21,22 +21,33 @@ class User {
 class UserDao {
 
     static GetAll(callback) {
-
-    }
-    static FindUserById (id, callback) {
-
+        return records;
     }
 
     static AddUser (username,password,callback) {
-
+        let record = {
+            username : username,
+            password : password
+        };
+        records.push(record);
     }
+
+    static FindById (id) {
+        let idx = id - 1;
+        return records[idx];
+    }
+
+    static FindByUsername (username) {
+
+        let rec = records.filter( (r) => {
+            return r.username === username
+        });
+        return rec;
+    };
 
     static DeleteUser(id, callback) {
-
+        let ids = records.map( (r) =>{ return r.id ;} );
+        let index = ids.indexOf(id);
+        records.splice(index,index);
     }
-
-    static findByUsername(username, callback){
-
-    }
-
 }
