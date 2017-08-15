@@ -13,12 +13,6 @@ function MessageFromJQXHR(jqXHR) {
         msg = 'Requested page not found. [404]';
     } else if (jqXHR.status == 500) {
         msg = 'Internal Server Error [500].';
-    } else if (errorThrown === 'parsererror') {
-        msg = 'Requested JSON parse failed.';
-    } else if (errorThrown === 'timeout') {
-        msg = 'Time out error.';
-    } else if (errorThrown === 'abort') {
-        msg = 'Ajax request aborted.';
     } else {
         msg = 'Uncaught Error. ' + jqXHR.responseText;
     }

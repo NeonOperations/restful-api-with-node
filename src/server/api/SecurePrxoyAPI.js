@@ -4,7 +4,7 @@ const Perms = require('../services/permission/PermissionService');
 const Proxy = require("../services/proxy/ProxyService");
 const request = require('request');
 
-let API = {
+module.exports = {
 
     UUID: {
         getUUID: () => {
@@ -12,59 +12,75 @@ let API = {
         }
     }
     ,
-    Identity: {
+    Id: {
 
-        /**
-         * The callback returns the
-         * {
-         *  success : <true|false>,
-         *  payload : < undefined | { token : "string"} >,
-         *  error   : < null | object>
-         *  }
-         * @param username
-         * @param password
-         * @param callback
-         * @constructor
-         */
-        RequestToken: (username, password, callback) => {
+        RequestToken: (username, password, isRemote, callback) => {
 
-            // TODO:  get url from config file
-            let url = "http://localhost:9902/requesttoken";
-            let body = {username: username, password: password};
-            request.post(url, body, (ret) => {
-                callback(ret);
-            })
+            if ( isRemote === true) {
+                // TODO:  get url from config file
+                let url = "http://localhost:9902/requesttoken";
+                let body = {username: username, password: password};
+                request.post(url, body, (ret) => {
+                    callback(ret);
+                })
+            }else {
+                Identity.RequestToken(username,password,callback);
+            }
         }
         ,
-        RevokeToken: (token, callback) => {
-            // TODO:  get url from config file
-            let url = "http://localhost:9902/revoketoken";
-            request.post(url, {token: token}, (ret) => {
-                callback(ret);
-            })
+        RevokeToken: (token, isRemote, callback) => {
+
+            if ( isRemote === true) {
+                // TODO:  get url from config file
+                let url = "http://localhost:9902/revoketoken";
+                request.post(url, {token: token}, (ret) => {
+                    callback(ret);
+                })
+            } else {
+                Identity.RevokeToken(token,callback);
+            }
         }
         ,
-        RevokeUser: (username, callback) => {
-            // TODO:  get url from config file
-            let url = "http://localhost:9902/revokeuser";
-            request.post(url, {username: username}, (ret) => {
-                callback(ret);
-            })
+        ValidateToken: (token,isRemote, callback) => {
+            if ( isRemote === true) {
+                // TODO:  get url from config file
+                let url = "http://localhost:9902/validatetoken";
+                request.post(url, {token: token}, (ret) => {
+                    callback(ret);
+                })
+            }else {
+                Identity.ValidateToken(token,callback);
+            }
+        }
+        ,
+        RevokeUser: (username, isRemote , callback) => {
+            if ( isRemote === true) {
+                // TODO:  get url from config file
+                let url = "http://localhost:9902/revokeuser";
+                request.post(url, {username: username}, (ret) => {
+                    callback(ret);
+                })
+            }else {
+                Identity.RevokeUser(username,callback);
+            }
         },
-        ValidateToken: (token, callback) => {
-            // TODO:  get url from config file
-            let url = "http://localhost:9902/validatetoken";
-            request.post(url, {token: token}, (ret) => {
-                callback(ret);
-            })
-        },
+
 
         GetUserFromToken(token, callback) {
-            // TODO:  get url from config file
-            let url = "http://localhost:9902/usertotoken";
-            request.post(url, {token: token}, (ret) => {
-                callback(ret);
-            })
+            if ( isRemote === true) {
+                // TODO:  get url from config file
+                let url = "http://localhost:9902/usertotoken";
+                request.post(url, {token: token}, (ret) => {
+                    callback(ret);
+                })
+            }else {
+                Identity.GetUserFromToken(token,callback);
+            }
+        }
+        ,
+
+        GetUserFromTokenSync(token){
+            return Identity.GetUserFromTokenSync(token);
         }
     }
     ,
@@ -121,4 +137,3 @@ let API = {
 
 };
 
-module.exports = API;
