@@ -5,78 +5,97 @@
 
 <% include ./header.ejs %>
 
-<body style="background-image: url('Neon_map.jpg')">
+<body style="background-image: url('bg_black_002.jpg')">
 
 
 <div id="wrapper">
 
     <% include ./sidenav.ejs %>
 
-    <div id="page-content-wrapper">
+    <div id="page-content-wrapper" style="background: whitesmoke">
         <div class="container-fluid">
             <div id="ods" class="row">
-                <div class="jumbotron">
-                    <table  class="table  table-bordered table-striped"
-                            id="ods_services"   cellspacing="0" width="100%"></table>
+
+                <div>
+                    <h4>ODS Services</h4>
+                    <table class="table  table-bordered table-striped compact"
+                           id="ods_services" cellspacing="0" width="100%"></table>
 
                     <script>
 
                         let cols = [
-                            {title : "Group"},
-                            { title : 'Service Name' },
-                            { title : 'Host'},
-                            { title :'Port'},
-                            { title :'Path'},
-                            { title :'Sub Path'},
-                            { title :'GET'},
-                            { title :'PUT'},
-                            { title :'POST'},
-                            { title :'DELETE'}
+                            {title: "Group"},
+                            {title: "Name"},
+                            {title: "Desc"},
+                            {title: 'Endpoint'},
+                            {title: 'Sub Path'},
+                            {title: 'ALLOW'},
+
                         ];
 
 
                         let data = [];
 
+                        let group = 'Admin';
+                        let host = 'den-devisd-1.ci.neoninternal.org';
+                        let port = '9090';
+                        let endpoints =[
+                            { method:'get', subpath :'/siteinfo'},
+                            { method:'get', subpath :'/siteNames'},
+                            { method:'get', subpath :'/all'},
+                            { method:'get', subpath :'/{id}'},
+                            { method:'get', subpath :'/{query}'},
+                            { method:'put', subpath :'/'},
+                            { method:'delete', subpath :'/'},
+                        ];
+                        data.push([
 
-//                            [
-//                                "locations",
-//                                "den-devisd-1.ci.neoninternal.org",
+                            "<a><span class=\"glyphicon glyphicon-user\">Admin</a>",
+                            "<a><span class=\"glyphicon glyphicon-user\">Locations</a>",
+                            "<p> Rest Endpoints to manage locations, query, create, update and delete.</p>",
+
+                            "<ul>" +
+                                "<li><a>den-devisd-1.ci.neoninternal.org<a></li>" +
+                                "<li>9090</li>" +
+                                "<li>neon-ods/api/locations</li>" +
+                            "</ul>"
+                            ,
+                            "<ul>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /siteinfo</li>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /siteNames</li>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /all</li>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /{id}</li>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /query</li>" +
+                                "<li><span class=\"glyphicon glyphicon-eye-open\"> (get) /siteNames</li>" +
+                                "<li><span class=\"glyphicon glyphicon-edit\"> (put) /</li>" +
+                                "<li><span class=\"glyphicon glyphicon-remove\"> (delete) /delete</li>" +
+                            "</ul>",
+                            "<ul>" +
+                            "<li><input type='checkbox' value='true'> <span class=\"glyphicon glyphicon-eye-open\"> GET</li>" +
+                            "<li><input type='checkbox' value='true'> <span class=\"glyphicon glyphicon-edit\"> PUT</li>" +
+                            "<li><input type='checkbox' value='true'> <span class=\"glyphicon glyphicon-plus\"> POST</li>" +
+                            "<li><input type='checkbox' value='true'> <span class=\"glyphicon glyphicon-remove\"> DELETE</li>" +
+                            "</ul>"
+                        ]);
+
+
+
+
+
+//                        for (let i = 0; i < 1; i++) {
+//                            data.push([
+//                                "<a>Admin</a>",
+//                                "<a>locations</a>",
+//                                "<a>den-devisd-1.ci.neoninternal.org<a>",
 //                                "9090",
 //                                "neon-ods/api/locations",
 //                                "/siteinfo",
-//                                true,
-//                                false,
-//                                false,
-//                                false
-//                            ],
-//                            [
-//                                "locations",
-//                                "den-devisd-1.ci.neoninternal.org",
-//                                "9090",
-//                                "neon-ods/api/locations",
-//                                "/siteinfo",
-//                                true,
-//                                false,
-//                                false,
-//                                false
-//                            ]
-
-
-                        for ( let i =0 ; i < 1000; i++){
-                            data.push( [
-                                "<a>Admin</a>",
-                                "<a>locations</a>",
-                                "<a>den-devisd-1.ci.neoninternal.org<a>",
-                                "9090",
-                                "neon-ods/api/locations",
-                                "/siteinfo",
-                                "<input type='checkbox' value='true'>",
-                                "<input type='checkbox' value='true'>",
-                                "<input type='checkbox' value='true'>",
-                                "<input type='checkbox' value='true'>"
-                            ]);
-                        }
-
+//                                "<input type='checkbox' value='true'>",
+//                                "<input type='checkbox' value='true'>",
+//                                "<input type='checkbox' value='true'>",
+//                                "<input type='checkbox' value='true'>"
+//                            ]);
+//                        }
 
 
                         $(document).ready(function () {
@@ -91,14 +110,14 @@
                 </div>
             </div>
             <div id="cds" class="row" hidden>
-                <div class="jumbotron">
-                    <h1>CDS</h1>
-                </div>
+
+                <h4>CDS Service</h4>
+
             </div>
             <div id="srf" class="row" hidden>
-                <div class="jumbotron">
-                    <h1>SRF</h1>
-                </div>
+
+                <h4>SRF</h4>
+
             </div>
         </div>
     </div>

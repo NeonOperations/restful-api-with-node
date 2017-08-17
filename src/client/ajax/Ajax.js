@@ -50,8 +50,7 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
+
             }
         });
     },
@@ -89,8 +88,7 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
+
             }
         });
     },
@@ -117,14 +115,6 @@ module.exports = {
 
                 callback(result, url);
 
-                if (usesAlert === true) {
-                    if (result.success === true) {
-                        APP.ShowAlert('success', 'Success', JSON.stringify(result.payload, ' ', 2));
-                    } else {
-                        APP.ShowAlert('error', 'Applicaion Error', JSON.stringify(result.error, ' ', 2));
-                    }
-                }
-                PrependRequestId(result.request_id, url);
             },
             error: function (jqXHR, status, errorThrown) {
                 let msg = MessageFromJQXHR(jqXHR);
@@ -133,8 +123,7 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
+
             }
         });
     },
@@ -146,10 +135,11 @@ module.exports = {
             url: theAjaxUrl,
             type: 'DELETE',
             success: function (result) {
-                // turn off timer before or after table refresh?
+
                 timer.stopOverlay(timer);
+
                 callback(result);
-                PrependRequestId(result.request_id, theAjaxUrl);
+
             }
         });
     }

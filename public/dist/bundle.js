@@ -16829,8 +16829,6 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
             }
         });
     },
@@ -16868,8 +16866,6 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
             }
         });
     },
@@ -16895,15 +16891,6 @@ module.exports = {
             success: function success(result) {
 
                 callback(result, url);
-
-                if (usesAlert === true) {
-                    if (result.success === true) {
-                        APP.ShowAlert('success', 'Success', JSON.stringify(result.payload, ' ', 2));
-                    } else {
-                        APP.ShowAlert('error', 'Applicaion Error', JSON.stringify(result.error, ' ', 2));
-                    }
-                }
-                PrependRequestId(result.request_id, url);
             },
             error: function error(jqXHR, status, errorThrown) {
                 var msg = MessageFromJQXHR(jqXHR);
@@ -16912,8 +16899,6 @@ module.exports = {
                     success: false,
                     error: new Error(msg)
                 };
-                // callbackAlert(errResponse);
-                // callback(errResponse);
             }
         });
     },
@@ -16925,10 +16910,10 @@ module.exports = {
             url: theAjaxUrl,
             type: 'DELETE',
             success: function success(result) {
-                // turn off timer before or after table refresh?
+
                 timer.stopOverlay(timer);
+
                 callback(result);
-                PrependRequestId(result.request_id, theAjaxUrl);
             }
         });
     }
@@ -32153,7 +32138,7 @@ exports = module.exports = __webpack_require__(70)(undefined);
 
 
 // module
-exports.push([module.i, "/*!\n * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)\n * Copyright 2013-2016 Start Bootstrap\n * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)\n */\nbody {\n  overflow-x: hidden; }\n\n/* Toggle Styles */\n#wrapper {\n  padding-left: 0;\n  -webkit-transition: all 0.5s ease;\n  -moz-transition: all 0.5s ease;\n  -o-transition: all 0.5s ease;\n  transition: all 0.5s ease; }\n\n#wrapper.toggled {\n  padding-left: 250px; }\n\n#sidebar-wrapper {\n  z-index: 1000;\n  position: fixed;\n  left: 250px;\n  width: 0;\n  height: 110%;\n  margin-left: -250px;\n  overflow-y: auto;\n  background: #2E4053;\n  -webkit-transition: all 0.5s ease;\n  -moz-transition: all 0.5s ease;\n  -o-transition: all 0.5s ease;\n  transition: all 0.5s ease; }\n\n#wrapper.toggled #sidebar-wrapper {\n  width: 200px;\n  border-radius: 25px;\n  padding: 20px; }\n\n#page-content-wrapper {\n  width: 100%;\n  position: absolute;\n  padding: 15px; }\n\n#wrapper.toggled #page-content-wrapper {\n  position: absolute;\n  margin-right: -250px; }\n\n/* Sidebar Styles */\n.sidebar-nav {\n  position: absolute;\n  top: 0;\n  width: 250px;\n  margin: 0;\n  padding: 0;\n  list-style: none;\n  color: white; }\n\n.sidebar-nav li {\n  text-indent: 20px;\n  line-height: 40px; }\n\n.sidebar-nav li a {\n  display: block;\n  text-decoration: none;\n  color: white; }\n\n.sidebar-nav li a:hover {\n  text-decoration: none;\n  color: red;\n  background: rgba(255, 255, 255, 0.2); }\n\n.sidebar-nav li a:active,\n.sidebar-nav li a:focus {\n  text-decoration: none; }\n\n.sidebar-nav > .sidebar-brand {\n  height: 65px;\n  font-size: 18px;\n  line-height: 60px; }\n\n.sidebar-nav > .sidebar-brand a {\n  color: #999999; }\n\n.sidebar-nav > .sidebar-brand a:hover {\n  color: #fff;\n  background: none; }\n\n@media (min-width: 768px) {\n  #wrapper {\n    padding-left: 0; }\n  #wrapper.toggled {\n    padding-left: 250px; }\n  #sidebar-wrapper {\n    width: 0; }\n  #wrapper.toggled #sidebar-wrapper {\n    width: 250px; }\n  #page-content-wrapper {\n    padding: 20px;\n    position: relative; }\n  #wrapper.toggled #page-content-wrapper {\n    position: relative;\n    margin-right: 0; } }\n", ""]);
+exports.push([module.i, "/*!\n * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)\n * Copyright 2013-2016 Start Bootstrap\n * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)\n */\nbody {\n  overflow-x: hidden; }\n\n/* Toggle Styles */\n#wrapper {\n  padding-left: 0;\n  -webkit-transition: all 0.5s ease;\n  -moz-transition: all 0.5s ease;\n  -o-transition: all 0.5s ease;\n  transition: all 0.5s ease; }\n\n#wrapper.toggled {\n  padding-left: 250px; }\n\n#sidebar-wrapper {\n  z-index: 1000;\n  position: fixed;\n  left: 250px;\n  width: 0;\n  height: 110%;\n  margin-left: -250px;\n  overflow-y: auto;\n  -webkit-transition: all 0.5s ease;\n  -moz-transition: all 0.5s ease;\n  -o-transition: all 0.5s ease;\n  transition: all 0.5s ease; }\n\n#wrapper.toggled #sidebar-wrapper {\n  width: 200px;\n  border-radius: 25px;\n  padding: 20px; }\n\n#page-content-wrapper {\n  width: 100%;\n  position: absolute;\n  padding: 15px; }\n\n#wrapper.toggled #page-content-wrapper {\n  position: absolute;\n  margin-right: -250px; }\n\n/* Sidebar Styles */\n.sidebar-nav {\n  position: absolute;\n  top: 0;\n  width: 250px;\n  margin: 0;\n  padding: 0;\n  list-style: none; }\n\n.sidebar-nav li {\n  text-indent: 20px;\n  line-height: 40px; }\n\n.sidebar-nav li a {\n  display: block;\n  text-decoration: none; }\n\n.sidebar-nav li a:hover {\n  text-decoration: none;\n  color: red;\n  background: rgba(255, 255, 255, 0.2); }\n\n.sidebar-nav li a:active,\n.sidebar-nav li a:focus {\n  text-decoration: none; }\n\n.sidebar-nav > .sidebar-brand {\n  height: 65px;\n  font-size: 18px;\n  line-height: 60px; }\n\n.sidebar-nav > .sidebar-brand a {\n  color: #999999; }\n\n.sidebar-nav > .sidebar-brand a:hover {\n  color: #fff;\n  background: none; }\n\n@media (min-width: 768px) {\n  #wrapper {\n    padding-left: 0; }\n  #wrapper.toggled {\n    padding-left: 250px; }\n  #sidebar-wrapper {\n    width: 0; }\n  #wrapper.toggled #sidebar-wrapper {\n    width: 250px; }\n  #page-content-wrapper {\n    padding: 20px;\n    position: relative; }\n  #wrapper.toggled #page-content-wrapper {\n    position: relative;\n    margin-right: 0; } }\n", ""]);
 
 // exports
 
